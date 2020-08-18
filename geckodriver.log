@@ -1,0 +1,159 @@
+1597772985245	geckodriver	INFO	Listening on 127.0.0.1:57604
+1597772988437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilejTN5Am"
+JavaScript warning: resource://gre/modules/addons/XPIInstall.jsm, line 917: unreachable code after return statement
+1597772991170	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+JavaScript warning: resource://gre/modules/addons/XPIDatabase.jsm, line 392: unreachable code after return statement
+1597772991498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1597772991499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1597772991715	addons.xpi-utils	WARN	addMetadata: Add-on {E55C9A17-39B3-4F0A-9546-2E85FE620BE8} is invalid: Error: Invalid addon ID: expected addon ID {E55C9A17-39B3-4F0A-9546-2E85FE620BE8}, found undefined in manifest(resource://gre/modules/addons/XPIDatabase.jsm:2421:15) JS Stack trace: addMetadata@XPIDatabase.jsm:2421:15
+processFileChanges@XPIDatabase.jsm:2769:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:203:12
+_startProvider@AddonManager.jsm:651:5
+startup@AddonManager.jsm:804:9
+startup@AddonManager.jsm:2774:5
+observe@addonManager.js:66:9
+1597772991715	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597772991716	addons.xpi-utils	WARN	addMetadata: Add-on {7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5} is invalid: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isFile]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 227"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:227
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:857
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:871
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2417
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2769
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2556
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2134
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:651
+startup()@resource://gre/modules/AddonManager.jsm:804
+startup()@resource://gre/modules/AddonManager.jsm:2774
+observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:66
+1597772991717	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597772998365	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+1597772999797	Marionette	INFO	Listening on port 57612
+1597773001559	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Parent 12040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14992, MediaPlayback #3] WARNING: Decoder=229b6cd4850 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 14992, MediaPlayback #1] WARNING: Decoder=229b6cd4850 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 14992, MediaPlayback #3] WARNING: Decoder=229b6cd4850 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 14992, MediaPlayback #3] WARNING: Decoder=229b6cd4850 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 14992, MediaPlayback #2] WARNING: Decoder=229b6cd4850 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Parent 12040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12040, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 12040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1597773274807	Marionette	INFO	Stopped listening on port 57612
+[GPU 13668, Chr1597773545814	geckodriver	INFO	Listening on 127.0.0.1:57719
+1597773548840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileinjxeP"
+JavaScript warning: resource://gre/modules/addons/XPIInstall.jsm, line 917: unreachable code after return statement
+1597773550198	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+JavaScript warning: resource://gre/modules/addons/XPIDatabase.jsm, line 392: unreachable code after return statement
+1597773550473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1597773550473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1597773550654	addons.xpi-utils	WARN	addMetadata: Add-on {E55C9A17-39B3-4F0A-9546-2E85FE620BE8} is invalid: Error: Invalid addon ID: expected addon ID {E55C9A17-39B3-4F0A-9546-2E85FE620BE8}, found undefined in manifest(resource://gre/modules/addons/XPIDatabase.jsm:2421:15) JS Stack trace: addMetadata@XPIDatabase.jsm:2421:15
+processFileChanges@XPIDatabase.jsm:2769:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:203:12
+_startProvider@AddonManager.jsm:651:5
+startup@AddonManager.jsm:804:9
+startup@AddonManager.jsm:2774:5
+observe@addonManager.js:66:9
+1597773550654	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597773550655	addons.xpi-utils	WARN	addMetadata: Add-on {7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5} is invalid: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isFile]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 227"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:227
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:857
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:871
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2417
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2769
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2556
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2134
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:651
+startup()@resource://gre/modules/AddonManager.jsm:804
+startup()@resource://gre/modules/AddonManager.jsm:2774
+observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:66
+1597773550656	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597773554386	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+1597773554512	Marionette	INFO	Listening on port 57727
+1597773554572	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1539IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1597773657190	Marionette	INFO	Stopped listening on port 57727
+[GPU 89
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597773725336	geckodriver	INFO	Listening on 127.0.0.1:57775
+1597773728417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileXkgN9G"
+JavaScript warning: resource://gre/modules/addons/XPIInstall.jsm, line 917: unreachable code after return statement
+1597773729726	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+JavaScript warning: resource://gre/modules/addons/XPIDatabase.jsm, line 392: unreachable code after return statement
+1597773729932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1597773729932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1597773730054	addons.xpi-utils	WARN	addMetadata: Add-on {E55C9A17-39B3-4F0A-9546-2E85FE620BE8} is invalid: Error: Invalid addon ID: expected addon ID {E55C9A17-39B3-4F0A-9546-2E85FE620BE8}, found undefined in manifest(resource://gre/modules/addons/XPIDatabase.jsm:2421:15) JS Stack trace: addMetadata@XPIDatabase.jsm:2421:15
+processFileChanges@XPIDatabase.jsm:2769:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:203:12
+_startProvider@AddonManager.jsm:651:5
+startup@AddonManager.jsm:804:9
+startup@AddonManager.jsm:2774:5
+observe@addonManager.js:66:9
+1597773730054	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597773730055	addons.xpi-utils	WARN	addMetadata: Add-on {7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5} is invalid: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isFile]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 227"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:227
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:857
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:871
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2417
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2769
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2556
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2134
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:651
+startup()@resource://gre/modules/AddonManager.jsm:804
+startup()@resource://gre/modules/AddonManager.jsm:2774
+observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:66
+1597773730056	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1597773733319	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\{7B1C8571-7DAE-45FE-A3C5-53BD28B25EA5}.xpi
+1597773733427	Marionette	INFO	Listening on port 57783
+1597773733643	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[Child 2396, MediaPlayback #3] WARNING: Decoder=199fcffa750 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 2396, MediaPlayback #4] WARNING: Decoder=199fcffa750 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Child 2396, MediaPlayback #1] WARNING: Decoder=199fcffa750 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3434
+[Parent 14864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src[Parent 14864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14384, C1597773835586	Marionette	INFO	Stopped listening on port 57783
+[GPU 58
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
